@@ -12,16 +12,25 @@ def link_tax_with_seq(seq_file, tax_file):
         for i, line in enumerate(r_seq):
             if i % 2 == 0:
                 id = line.rstrip()[1:]
+                # print(id)
+                # if not id.isnumeric():
+                #     print(id)
+                #     break
             else:
                 sequence = line.rstrip()
             taxa_id_dict[id] = {"sequence": sequence, "taxa": ""}
 
         for line in r_tax:
-            id, taxa = line.split("\t")
+            id, taxa = line.rstrip().split("\t")
+            # taxa = taxa.rstrip()
             if id in taxa_id_dict:
                 taxa_list = [taxon[3:] for taxon in taxa.split(";")]
                 taxa_id_dict[id]["taxa"] = dict(zip(taxa_hierarchy, taxa_list))
-    print(taxa_id_dict)
+    # print(taxa_id_dict)
+    # print(taxa_id_dict.keys())
+    # for key in taxa_id_dict:
+    #     print(f"{key=}")
+    # len sequence: 7682
 
 
 if __name__ == "__main__":
