@@ -20,6 +20,9 @@ def link_tax_with_seq(seq_file, tax_file):
             id, taxa = line.rstrip().split("\t")
             # taxa = taxa.rstrip()
             if id in taxa_id_dict:
+                if any(char.isdigit() for char in taxa):
+                    taxa_id_dict.pop(id)
+                    continue
                 taxa_list = [taxon[3:] for taxon in taxa.split(";")]
                 taxa_id_dict[id]["taxa"] = dict(zip(taxa_hierarchy, taxa_list))
     # print(taxa_id_dict)
@@ -36,8 +39,22 @@ def get_array(taxa_id_dict):
     # print(unique_chars)
     # 'G', 'M', 'H', 'Y', 'W', 'S', 'A', 'N', 'C', 'R', 'K', 'T', '-', 'B', 'V', 'D'
     # https://en.wikipedia.org/wiki/Nucleotide#Abbreviation_codes_for_degenerate_bases
-    
-    for 
+
+    # simple implementation if not in "ACGT-", val = 0
+
+    base_dict = {"-": 0.0, "A": 0.2, "C": 0.4, "G": 0.6, "T": 0.8}
+    kingdom_set, phylum_set = set(), set()
+    for k, v in taxa_id_dict.items():
+        float_list = []
+        for base in v["sequence"]:
+            float_list.append(base_dict.setdefault(base, 1.0))
+        # print(float_list)
+        # print(f"{k=}, {v['taxa']['kindom']}")
+        # print(f"{v['taxa']['kindom']}")
+        # kingdom_set.add(v['taxa']['phylum'])
+        phylum_set.add(v['taxa']['phylum'])
+    # print(kingdom_set) = {'Bacteria', 'Archaea'}
+    print(phylum_set)
 
 
 if __name__ == "__main__":
