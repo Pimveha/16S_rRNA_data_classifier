@@ -12,10 +12,6 @@ def link_tax_with_seq(seq_file, tax_file):
         for i, line in enumerate(r_seq):
             if i % 2 == 0:
                 id = line.rstrip()[1:]
-                # print(id)
-                # if not id.isnumeric():
-                #     print(id)
-                #     break
             else:
                 sequence = line.rstrip()
             taxa_id_dict[id] = {"sequence": sequence, "taxa": ""}
@@ -29,12 +25,24 @@ def link_tax_with_seq(seq_file, tax_file):
     # print(taxa_id_dict)
     # print(taxa_id_dict.keys())
     # for key in taxa_id_dict:
-    #     print(f"{key=}")
+    #     print(f"{key=}\n{taxa_id_dict[key]['taxa']}\n\n")
     # len sequence: 7682
+    return taxa_id_dict
+
+
+def get_array(taxa_id_dict):
+    # check_set = [set(taxa_id_dict[k]['sequence']) for k in taxa_id_dict.keys()]
+    # unique_chars = set().union(*check_set)
+    # print(unique_chars)
+    # 'G', 'M', 'H', 'Y', 'W', 'S', 'A', 'N', 'C', 'R', 'K', 'T', '-', 'B', 'V', 'D'
+    # https://en.wikipedia.org/wiki/Nucleotide#Abbreviation_codes_for_degenerate_bases
+    
+    for 
 
 
 if __name__ == "__main__":
     aligned_seqs = "./raw_data/16S_rRNA_aligned.fasta"
     tax_file_green_genes = "./raw_data/otu_id_to_greengenes.txt"
 
-    link_tax_with_seq(aligned_seqs, tax_file_green_genes)
+    taxa_id_dict = link_tax_with_seq(aligned_seqs, tax_file_green_genes)
+    get_array(taxa_id_dict)
