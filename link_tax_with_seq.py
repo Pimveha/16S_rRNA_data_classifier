@@ -1,5 +1,6 @@
 
 # data retrieved from: https://greengenes.lbl.gov/Download/OTUs/
+import numpy as np
 
 
 def link_tax_with_seq(seq_file, tax_file):
@@ -57,9 +58,30 @@ def get_array(taxa_id_dict):
     print(phylum_set)
 
 
+def count_non_overlapping(seq1, seq2):
+    seq1_arr, seq2_arr = np.array(list(seq1)), np.array(list(seq2))
+    diff_indices = np.where(seq1_arr != seq2_arr)[0]
+    # print(diff_indices.size)
+    return diff_indices.size
+
+
+def top_overlap(taxa_id_dict, compare_seq, top=30):
+    # top_taxa_dict = {-i: {"count": 0, "percentage": 0, "taxa": ""} for i in range(30)}
+    top_taxa_list = [(0, 0) for _ in range(30)]
+
+    for key in taxa_id_dict:
+        compare_me_2 = taxa_id_dict[key]["sequence"]
+        count = count_non_overlapping(compare_seq, compare_me_2)
+        if count > top_taxa_list[top-1][1]:
+            top_taxa_list[top-1] = (key, count)
+            top_taxa_list.sort(key=lambda x: x[1], reverse=True)
+
+
 if __name__ == "__main__":
     aligned_seqs = "./raw_data/16S_rRNA_aligned.fasta"
     tax_file_green_genes = "./raw_data/otu_id_to_greengenes.txt"
 
     taxa_id_dict = link_tax_with_seq(aligned_seqs, tax_file_green_genes)
-    get_array(taxa_id_dict)
+    # get_array(taxa_id_dict)
+    percent_non_overlapping("ACTTTCACCGAGA", "TCTTTCCCCGAGA")
+    top_overlap(taxa_id_dict, )
