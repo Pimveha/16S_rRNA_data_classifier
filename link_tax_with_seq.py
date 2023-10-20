@@ -103,8 +103,10 @@ def most_likely_taxa(taxa_id_dict, id_list):
         print("---------------------------------")
         print(f"{taxa_name=}\n{best_option=}")
 
+
 def check_accuracy():
-    
+    ...
+
 
 if __name__ == "__main__":
     aligned_seqs = "./raw_data/16S_rRNA_aligned.fasta"
