@@ -1,0 +1,500 @@
+---------182109---------
+true taxa: dict_values(['Bacteria', 'Gemmatimonadetes', 'Gemmatimonadetes (class)', '', '', '', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Ruminococcaceae', '', ''])
+-1 3
+
+---------6539---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Betaproteobacteria', 'Nitrosomonadales', 'Nitrosomonadaceae', 'Nitrosomonas', ''])
+guess taxa: dict_values(['Bacteria', 'Proteobacteria', 'Betaproteobacteria', 'Clostridiales', '', '', ''])
+-3 6
+
+---------245557---------
+true taxa: dict_values(['Bacteria', 'Gemmatimonadetes', 'Gemmatimonadetes (class)', 'Gemmatimonadales', '', '', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', '', '', ''])
+-1 4
+
+---------165418---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Alphaproteobacteria', 'Rhodospirillales', 'Rhodospirillaceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Proteobacteria', 'Alphaproteobacteria', 'Rhodospirillales', 'Rhodospirillaceae', '', ''])
+5 5
+
+---------408281---------
+true taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', 'Corynebacteriaceae', 'Corynebacterium', ''])
+guess taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', 'Corynebacteriaceae', 'Corynebacterium', ''])
+6 6
+
+---------242876---------
+true taxa: dict_values(['Archaea', 'Euryarchaeota', 'Methanomicrobia', 'Methanosarcinales', '', '', ''])
+guess taxa: dict_values(['Bacteria', 'Proteobacteria', 'Gammaproteobacteria', 'Oceanospirillales', 'Pseudomonadaceae', '', ''])
+0 4
+
+---------191799---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Lachnospiraceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Lachnospiraceae', '', ''])
+5 5
+
+---------310647---------
+true taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', 'Microbacteriaceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', 'Microbacteriaceae', '', ''])
+5 5
+
+---------378853---------
+true taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', 'Corynebacteriaceae', 'Corynebacterium', ''])
+guess taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', 'Corynebacteriaceae', 'Corynebacterium', ''])
+6 6
+
+---------572612---------
+true taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Flavobacteria', 'Flavobacteriales', 'Cryomorphaceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Bacteroidia', 'Bacteroidales', 'Porphyromonadaceae', '', ''])
+-2 5
+
+---------441014---------
+true taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', 'Corynebacteriaceae', 'Corynebacterium', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Bacilli', 'Lactobacillales', 'Streptococcaceae', 'Streptococcus', ''])
+-1 6
+
+---------259881---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Deltaproteobacteria', 'Myxococcales', '', '', ''])
+guess taxa: dict_values(['Bacteria', 'Proteobacteria', 'Deltaproteobacteria', 'Syntrophobacterales', '', '', ''])
+-3 4
+
+---------136380---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Gammaproteobacteria', 'Enterobacteriales', 'Enterobacteriaceae', '', 'Candidatus Baumannia cicadellinicola'])
+guess taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', '', '', ''])
+-1 7
+
+---------524211---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Lachnospiraceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Lachnospiraceae', '', ''])
+5 5
+
+---------36320---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Alphaproteobacteria', 'Rhodospirillales', 'Rhodospirillaceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Tenericutes', 'Mollicutes', 'Mycoplasmatales', 'Mycoplasmataceae', '', ''])
+-1 5
+
+---------278075---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Alphaproteobacteria', 'Sphingomonadales', 'Sphingomonadaceae', 'Zymomonas', ''])
+guess taxa: dict_values(['Bacteria', 'Proteobacteria', 'Alphaproteobacteria', 'Sphingomonadales', 'Sphingomonadaceae', '', ''])
+5 6
+
+---------294254---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Bacilli', 'Lactobacillales', 'Streptococcaceae', 'Lactococcus', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Bacilli', 'Lactobacillales', 'Streptococcaceae', 'Streptococcus', ''])
+-5 6
+
+---------309022---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Deltaproteobacteria', 'Desulfovibrionales', 'Desulfovibrionaceae', 'Desulfovibrio', ''])
+guess taxa: dict_values(['Bacteria', 'Acidobacteria', 'Acidobacteria (class)', 'Acidobacteriales', '', '', ''])
+-1 6
+
+---------78832---------
+true taxa: dict_values(['Bacteria', 'Acidobacteria', 'Solibacteres', 'Solibacterales', 'Solibacteraceae', 'Candidatus Solibacter', ''])
+guess taxa: dict_values(['Bacteria', 'Acidobacteria', 'Solibacteres', 'Solibacterales', 'Solibacteraceae', 'Candidatus Solibacter', ''])
+6 6
+
+---------245102---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Gammaproteobacteria', 'Xanthomonadales', 'Xanthomonadaceae', 'Thermomonas', ''])
+guess taxa: dict_values(['Bacteria', 'Proteobacteria', 'Gammaproteobacteria', 'Xanthomonadales', 'Xanthomonadaceae', '', ''])
+5 6
+
+---------188127---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Lachnospiraceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Lachnospiraceae', '', ''])
+5 5
+
+---------262865---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Lachnospiraceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Lachnospiraceae', '', ''])
+5 5
+
+---------323003---------
+true taxa: dict_values(['Archaea', 'Euryarchaeota', 'Methanobacteria', 'Methanobacteriales', 'Methanobacteriaceae', 'Methanosphaera', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', '', '', ''])
+0 6
+
+---------426536---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Gammaproteobacteria', 'Pseudomonadales', 'Moraxellaceae', 'Acinetobacter', 'Acinetobacter schindleri'])
+guess taxa: dict_values(['Bacteria', 'Proteobacteria', 'Gammaproteobacteria', 'Pseudomonadales', 'Moraxellaceae', '', ''])
+5 7
+
+---------274257---------
+true taxa: dict_values(['Bacteria', 'Tenericutes', 'Erysipelotrichi', 'Erysipelotrichales', 'Erysipelotrichaceae', 'Bulleidia', ''])
+guess taxa: dict_values(['Archaea', 'Euryarchaeota', 'Methanomicrobia', 'Methanosarcinales', '', '', ''])
+0 6
+
+---------214914---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Alphaproteobacteria', '', '', '', ''])
+guess taxa: dict_values(['Bacteria', 'Proteobacteria', 'Alphaproteobacteria', 'Rhizobiales', '', '', ''])
+-3 3
+
+---------301010---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', '', '', ''])
+guess taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', '', '', ''])
+-1 4
+
+---------131056---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Clostridiaceae', 'Clostridium', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Ruminococcaceae', '', ''])
+-4 6
+
+---------265933---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Lachnospiraceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', '', '', ''])
+4 5
+
+---------587687---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Gammaproteobacteria', 'Legionellales', 'Coxiellaceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Proteobacteria', 'Clostridia', 'Clostridiales', '', '', ''])
+-2 5
+
+---------28413---------
+true taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Bacteroidia', 'Bacteroidales', 'Prevotellaceae', 'Prevotella', ''])
+guess taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Bacteroidia', 'Bacteroidales', 'Prevotellaceae', 'Prevotella', ''])
+6 6
+
+---------289585---------
+true taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Flavobacteria', 'Flavobacteriales', 'Flavobacteriaceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Bacteroidia', 'Bacteroidales', '', '', ''])
+-2 5
+
+---------295165---------
+true taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Coriobacteriales', 'Coriobacteriaceae', 'Adlercreutzia', ''])
+guess taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Bacteroidia', 'Bacteroidales', '', '', ''])
+-1 6
+
+---------187021---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Lachnospiraceae', 'Blautia', ''])
+guess taxa: dict_values(['Archaea', 'Euryarchaeota', 'Methanomicrobia', 'Methanosarcinales', 'Methanosarcinaceae', '', ''])
+0 6
+
+---------216031---------
+true taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Flavobacteria', 'Flavobacteriales', 'Flavobacteriaceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', '', '', ''])
+-1 5
+
+---------541742---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Bacilli', 'Bacillales', 'Bacillaceae', 'Bacillus', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Bacilli', 'Bacillales', 'Bacillaceae', 'Bacillus', ''])
+6 6
+
+---------207767---------
+true taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Bacteroidia', 'Bacteroidales', '', '', ''])
+guess taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Bacteroidia', 'Bacteroidales', '', '', ''])
+4 4
+
+---------303454---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Ruminococcaceae', 'Oscillospira', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Ruminococcaceae', '', ''])
+5 6
+
+---------425122---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Alphaproteobacteria', 'Sphingomonadales', 'Sphingomonadaceae', 'Blastomonas', 'Blastomonas natatoria'])
+guess taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', 'Corynebacteriaceae', 'Corynebacterium', ''])
+-1 7
+
+---------101503---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Gammaproteobacteria', 'Xanthomonadales', 'Xanthomonadaceae', 'Lysobacter', ''])
+guess taxa: dict_values(['Bacteria', 'Proteobacteria', 'Gammaproteobacteria', 'Xanthomonadales', 'Xanthomonadaceae', '', ''])
+5 6
+
+---------220193---------
+true taxa: dict_values(['Bacteria', 'Verrucomicrobia', 'Verrucomicrobiae', 'Verrucomicrobiales', '', '', ''])
+guess taxa: dict_values(['Bacteria', 'Verrucomicrobia', 'Verrucomicrobiae', 'Verrucomicrobiales', '', '', ''])
+4 4
+
+---------203722---------
+true taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', '', '', ''])
+guess taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', '', '', ''])
+4 4
+
+---------570826---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Zetaproteobacteria', 'Mariprofundales', 'Mariprofundaceae', 'Mariprofundus', ''])
+guess taxa: dict_values(['Bacteria', 'Proteobacteria', 'Gammaproteobacteria', 'Chromatiales', '', '', ''])
+-2 6
+
+---------332966---------
+true taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Sphingobacteria', 'Sphingobacteriales', 'Flammeovirgaceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Sphingobacteria', 'Sphingobacteriales', '', '', ''])
+4 5
+
+---------336665---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', '', '', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', '', '', ''])
+4 4
+
+---------250479---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Clostridiaceae', 'Clostridium', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Clostridiaceae', 'Clostridium', ''])
+6 6
+
+---------170892---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Gammaproteobacteria', 'Oceanospirillales', 'Pseudomonadaceae', 'Pseudomonas', ''])
+guess taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Clostridia', '', '', '', ''])
+-1 6
+
+---------304728---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Ruminococcaceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Ruminococcaceae', '', ''])
+5 5
+
+---------282451---------
+true taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Bacteroidia', 'Bacteroidales', '', '', ''])
+guess taxa: dict_values(['Bacteria', 'Proteobacteria', 'Alphaproteobacteria', 'Rhodospirillales', 'Rhodospirillaceae', '', ''])
+-1 4
+
+---------104109---------
+true taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', 'Mycobacteriaceae', 'Mycobacterium', ''])
+guess taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', 'Mycobacteriaceae', '', ''])
+5 6
+
+---------499626---------
+true taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', 'Corynebacteriaceae', 'Corynebacterium', ''])
+guess taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', 'Corynebacteriaceae', 'Corynebacterium', ''])
+6 6
+
+---------43917---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Betaproteobacteria', 'Burkholderiales', '', 'Methylibium', ''])
+guess taxa: dict_values(['Bacteria', 'Proteobacteria', 'Betaproteobacteria', 'Burkholderiales', 'Comamonadaceae', '', ''])
+-4 6
+
+---------203749---------
+true taxa: dict_values(['Bacteria', 'Acidobacteria', 'Acidobacteria (class)', 'Acidobacteriales', '', '', ''])
+guess taxa: dict_values(['Bacteria', 'Proteobacteria', 'Deltaproteobacteria', 'Desulfobacterales', 'Desulfobulbaceae', '', ''])
+-1 4
+
+---------16072---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Ruminococcaceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Ruminococcaceae', '', ''])
+5 5
+
+---------348946---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', '', '', ''])
+guess taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Flavobacteria', 'Flavobacteriales', 'Flavobacteriaceae', '', ''])
+-1 4
+
+---------510617---------
+true taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', '', '', ''])
+guess taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', '', '', ''])
+4 4
+
+---------563236---------
+true taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', 'Streptomycetaceae', 'Streptomyces', ''])
+guess taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', 'Streptomycetaceae', 'Streptomyces', ''])
+6 6
+
+---------108318---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Alphaproteobacteria', 'Sphingomonadales', 'Sphingomonadaceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Proteobacteria', 'Alphaproteobacteria', 'Sphingomonadales', 'Sphingomonadaceae', '', ''])
+5 5
+
+---------514212---------
+true taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Flavobacteria', 'Flavobacteriales', 'Flavobacteriaceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', '', '', ''])
+-1 5
+
+---------140216---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Epsilonproteobacteria', 'Campylobacterales', 'Campylobacteraceae', 'Arcobacter', ''])
+guess taxa: dict_values(['Bacteria', 'Cyanobacteria', '', '', '', '', ''])
+-1 6
+
+---------156444---------
+true taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', 'Streptomycetaceae', 'Streptomyces', ''])
+guess taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', 'Streptomycetaceae', 'Streptomyces', ''])
+6 6
+
+---------183577---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Lachnospiraceae', 'Blautia', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Lachnospiraceae', 'Blautia', ''])
+6 6
+
+---------248112---------
+true taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Bacteroidia', 'Bacteroidales', '', '', ''])
+guess taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Bacteroidia', 'Bacteroidales', '', '', ''])
+4 4
+
+---------549034---------
+true taxa: dict_values(['Bacteria', 'Chloroflexi', 'Dehalococcoidetes', '', '', '', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Lachnospiraceae', '', ''])
+-1 3
+
+---------9459---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Gammaproteobacteria', 'Pasteurellales', 'Pasteurellaceae', 'Chelonobacter', ''])
+guess taxa: dict_values(['Bacteria', 'Proteobacteria', 'Gammaproteobacteria', 'Pasteurellales', 'Pasteurellaceae', '', ''])
+5 6
+
+---------242651---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Alphaproteobacteria', 'Rhodobacterales', 'Rhodobacteraceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Proteobacteria', 'Deltaproteobacteria', 'Myxococcales', '', '', ''])
+-2 5
+
+---------439022---------
+true taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', 'Corynebacteriaceae', 'Corynebacterium', ''])
+guess taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', 'Corynebacteriaceae', 'Corynebacterium', ''])
+6 6
+
+---------579169---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Deltaproteobacteria', 'Syntrophobacterales', '', '', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Lachnospiraceae', '', ''])
+-1 4
+
+---------94867---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Bacilli', 'Bacillales', 'Alicyclobacillaceae', 'Alicyclobacillus', 'Alicyclobacillus disulfidooxidans'])
+guess taxa: dict_values(['Bacteria', 'Proteobacteria', 'Deltaproteobacteria', 'Syntrophobacterales', 'Desulfobacteraceae', '', ''])
+-1 7
+
+---------570233---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Peptococcaceae', 'Desulfosporosinus', 'Desulfosporosinus meridiei'])
+guess taxa: dict_values(['Bacteria', 'Tenericutes', 'Mollicutes', 'Mycoplasmatales', 'Mycoplasmataceae', '', ''])
+-1 7
+
+---------353130---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Clostridiales Family XIII. Incertae Sedis', '', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', '', '', ''])
+4 5
+
+---------509956---------
+true taxa: dict_values(['Bacteria', 'Cyanobacteria', '', '', '', '', ''])
+guess taxa: dict_values(['Bacteria', 'Proteobacteria', 'Gammaproteobacteria', 'Chromatiales', '', '', ''])
+-1 2
+
+---------191389---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Clostridiales Family XIII. Incertae Sedis', 'Eubacterium', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', '', '', ''])
+4 6
+
+---------520891---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', '', '', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', '', '', ''])
+4 4
+
+---------275907---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Lachnospiraceae', 'Clostridium', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Lachnospiraceae', '', ''])
+5 6
+
+---------25577---------
+true taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Flavobacteria', 'Flavobacteriales', 'Flavobacteriaceae', 'Gelidibacter', ''])
+guess taxa: dict_values(['Bacteria', 'Proteobacteria', 'Betaproteobacteria', 'Burkholderiales', '', '', ''])
+-1 6
+
+---------135405---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Lachnospiraceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', '', '', ''])
+4 5
+
+---------252737---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Betaproteobacteria', 'Burkholderiales', '', 'Thiomonas', ''])
+guess taxa: dict_values(['Bacteria', 'Proteobacteria', 'Gammaproteobacteria', 'Xanthomonadales', '', '', ''])
+-2 6
+
+---------279026---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Lachnospiraceae', 'Clostridium', ''])
+guess taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Flavobacteria', 'Flavobacteriales', '', '', ''])
+-1 6
+
+---------356995---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Lachnospiraceae', 'Blautia', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Lachnospiraceae', 'Blautia', ''])
+6 6
+
+---------445533---------
+true taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', 'Corynebacteriaceae', 'Corynebacterium', ''])
+guess taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', 'Corynebacteriaceae', 'Corynebacterium', 'Corynebacterium kroppenstedtii'])
+-6 6
+
+---------544153---------
+true taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Flavobacteria', 'Flavobacteriales', 'Flavobacteriaceae', 'Flavobacterium', 'Flavobacterium succinicans'])
+guess taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Flavobacteria', 'Flavobacteriales', 'Flavobacteriaceae', 'Flavobacterium', ''])
+6 7
+
+---------328359---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Alphaproteobacteria', 'Sphingomonadales', 'Sphingomonadaceae', 'Sphingomonas', ''])
+guess taxa: dict_values(['Bacteria', 'Proteobacteria', 'Alphaproteobacteria', 'Sphingomonadales', 'Sphingomonadaceae', '', ''])
+5 6
+
+---------529772---------
+true taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Bacteroidia', 'Bacteroidales', 'Prevotellaceae', 'Prevotella', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Lachnospiraceae', '', ''])
+-1 6
+
+---------194230---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Lachnospiraceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Bacteroidia', 'Bacteroidales', '', '', ''])
+-1 5
+
+---------240360---------
+true taxa: dict_values(['Bacteria', 'Planctomycetes', 'Phycisphaerae', '', '', '', ''])
+guess taxa: dict_values(['Bacteria', 'Gemmatimonadetes', 'Gemmatimonadetes (class)', '', '', '', ''])
+-1 3
+
+---------163571---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Alphaproteobacteria', 'Rhizobiales', 'Hyphomicrobiaceae', 'Rhodoplanes', ''])
+guess taxa: dict_values(['Bacteria', 'Actinobacteria', 'Actinobacteria (class)', 'Actinomycetales', '', '', ''])
+-1 6
+
+---------296330---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Lachnospiraceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Bacteroidia', 'Bacteroidales', 'Prevotellaceae', 'Prevotella', ''])
+-1 5
+
+---------188792---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Lachnospiraceae', 'Eubacterium', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Lachnospiraceae', '', ''])
+5 6
+
+---------145434---------
+true taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Flavobacteria', 'Flavobacteriales', 'Flavobacteriaceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Flavobacteria', 'Flavobacteriales', 'Flavobacteriaceae', '', ''])
+5 5
+
+---------521447---------
+true taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Flavobacteria', 'Flavobacteriales', 'Flavobacteriaceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Flavobacteria', 'Flavobacteriales', 'Flavobacteriaceae', '', ''])
+5 5
+
+---------272289---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Ruminococcaceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Ruminococcaceae', '', ''])
+5 5
+
+---------270303---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Ruminococcaceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Ruminococcaceae', '', ''])
+5 5
+
+---------108379---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Alphaproteobacteria', 'Sphingomonadales', 'Sphingomonadaceae', 'Kaistobacter', ''])
+guess taxa: dict_values(['Bacteria', 'Proteobacteria', 'Gammaproteobacteria', 'Clostridiales', '', '', ''])
+-2 6
+
+---------216520---------
+true taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Bacteroidia', 'Bacteroidales', 'Prevotellaceae', 'Prevotella', ''])
+guess taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Bacteroidia', 'Bacteroidales', '', '', ''])
+4 6
+
+---------238495---------
+true taxa: dict_values(['Bacteria', 'Chloroflexi', 'Chloroflexi (class)', 'Roseiflexales', 'Kouleothrixaceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Proteobacteria', 'Alphaproteobacteria', '', '', '', ''])
+-1 5
+
+---------275661---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Gammaproteobacteria', 'Oceanospirillales', 'Oceanospirillaceae', '', ''])
+guess taxa: dict_values(['Bacteria', 'Planctomycetes', 'Planctomycea', 'Pirellulales', '', '', ''])
+-1 5
+
+---------109889---------
+true taxa: dict_values(['Bacteria', 'Cyanobacteria', '', '', '', '', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Clostridia', 'Clostridiales', 'Ruminococcaceae', '', ''])
+-1 2
+
+---------98692---------
+true taxa: dict_values(['Bacteria', 'Proteobacteria', 'Epsilonproteobacteria', 'Campylobacterales', 'Helicobacteraceae', 'Sulfurimonas', ''])
+guess taxa: dict_values(['Bacteria', 'Firmicutes', 'Bacilli', 'Lactobacillales', 'Streptococcaceae', 'Streptococcus', ''])
+-1 6
+
+---------316765---------
+true taxa: dict_values(['Bacteria', 'Firmicutes', 'Bacilli', 'Lactobacillales', 'Streptococcaceae', 'Streptococcus', ''])
+guess taxa: dict_values(['Bacteria', 'Bacteroidetes', 'Sphingobacteria', 'Sphingobacteriales', '', '', ''])
+-1 6
+{'182109': (-1, 3), '6539': (-3, 6), '245557': (-1, 4), '165418': (5, 5), '408281': (6, 6), '242876': (0, 4), '191799': (5, 5), '310647': (5, 5), '378853': (6, 6), '572612': (-2, 5), '441014': (-1, 6), '259881': (-3, 4), '136380': (-1, 7), '524211': (5, 5), '36320': (-1, 5), '278075': (5, 6), '294254': (-5, 6), '309022': (-1, 6), '78832': (6, 6), '245102': (5, 6), '188127': (5, 5), '262865': (5, 5), '323003': (0, 6), '426536': (5, 7), '274257': (0, 6), '214914': (-3, 3), '301010': (-1, 4), '131056': (-4, 6), '265933': (4, 5), '587687': (-2, 5), '28413': (6, 6), '289585': (-2, 5), '295165': (-1, 6), '187021': (0, 6), '216031': (-1, 5), '541742': (6, 6), '207767': (4, 4), '303454': (5, 6), '425122': (-1, 7), '101503': (5, 6), '220193': (4, 4), '203722': (4, 4), '570826': (-2, 6), '332966': (4, 5), '336665': (4, 4), '250479': (6, 6), '170892': (-1, 6), '304728': (5, 5), '282451': (-1, 4), '104109': (5, 6), '499626': (6, 6), '43917': (-4, 6), '203749': (-1, 4), '16072': (5, 5), '348946': (-1, 4), '510617': (4, 4), '563236': (6, 6), '108318': (5, 5), '514212': (-1, 5), '140216': (-1, 6), '156444': (6, 6), '183577': (6, 6), '248112': (4, 4), '549034': (-1, 3), '9459': (5, 6), '242651': (-2, 5), '439022': (6, 6), '579169': (-1, 4), '94867': (-1, 7), '570233': (-1, 7), '353130': (4, 5), '509956': (-1, 2), '191389': (4, 6), '520891': (4, 4), '275907': (5, 6), '25577': (-1, 6), '135405': (4, 5), '252737': (-2, 6), '279026': (-1, 6), '356995': (6, 6), '445533': (-6, 6), '544153': (6, 7), '328359': (5, 6), '529772': (-1, 6), '194230': (-1, 5), '240360': (-1, 3), '163571': (-1, 6), '296330': (-1, 5), '188792': (5, 6), '145434': (5, 5), '521447': (5, 5), '272289': (5, 5), '270303': (5, 5), '108379': (-2, 6), '216520': (4, 6), '238495': (-1, 5), '275661': (-1, 5), '109889': (-1, 2), '98692': (-1, 6), '316765': (-1, 6)}
