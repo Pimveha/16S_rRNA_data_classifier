@@ -16,19 +16,19 @@ x_pos = list(range(len(keys)))
 #         for v in values], width=0.4, color='powderblue', align='center')
 
 plt.bar([i-0.2 for i in x_pos], [v[1] if v[1] >= 0 else 0 for v in values],
-        width=0.3, color='dimgray', align='center')
+        width=0.3, color='dimgray', align='center', label='True known taxa')
 
 plt.bar([i+0.2 for i in x_pos], [abs(v[0]) if v[0] <
-        0 else 0 for v in values], width=0.3, color='maroon', align='center')
+        0 else 0 for v in values], width=0.3, color='maroon', align='center', label='Guessed taxa, with mismatch')
 
 plt.bar([i+0.2 for i in x_pos], [v[0] if v[0] >=
-        0 else 0 for v in values], width=0.3, color='darkolivegreen', align='center')
+        0 else 0 for v in values], width=0.3, color='darkolivegreen', align='center', label='Guessed taxa, no mismatch')
 
 # plt.bar([i-0.2 for i in x_pos], [v[1]
 #         for v in values], width=0.4, color='peachpuff', align='center')
 
 plt.xlabel("ID")
-plt.ylabel("Score")
+plt.ylabel("Rank (taxon)")
 plt.title("ID Scores")
 
 
@@ -38,6 +38,6 @@ plt.xticks(x_pos, keys, rotation=90)
 # plt.yticks(range(8))
 plt.yticks(range(8), ["", "kingdom", "phylum", "class",
            "order", "family", "genus", "species"])
-
+plt.legend()
 
 plt.show()
