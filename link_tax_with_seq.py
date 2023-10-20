@@ -79,8 +79,8 @@ def top_overlap(taxa_id_dict, compare_seq, top=30):
             top_taxa_list[top-1] = (key, count)
             top_taxa_list.sort(key=lambda x: x[1], reverse=True)
             # print(count)
-            print(top_taxa_list[-1][1])  # wost overlap
-            print(top_taxa_list[0][1])  # best overlap
+            # print(top_taxa_list[-1][1])  # wost overlap
+            # print(top_taxa_list[0][1])  # best overlap
             # print(top_taxa_list)
     return top_taxa_list
 
@@ -93,6 +93,7 @@ def show_taxa_from_ids(taxa_id_dict, id_list):
 
 def most_likely_taxa(taxa_id_dict, id_list):
     # best_option = id_list.copy()
+    best_option_dict = {}
     for taxa_name in taxa_id_dict[id_list[0]]["taxa"]:
         # cur_taxa_list = [t for t in taxa_id_dict[id_list[0]]["taxa"][taxa_name]]
 
@@ -100,12 +101,46 @@ def most_likely_taxa(taxa_id_dict, id_list):
         all_options_list = [taxa_id_dict[id]["taxa"][taxa_name]
                             for id in id_list]
         best_option = max(set(all_options_list), key=all_options_list.count)
-        print("---------------------------------")
-        print(f"{taxa_name=}\n{best_option=}")
+        # print("---------------------------------")
+        # print(f"{taxa_name=}\n{best_option=}")
+        best_option_dict[taxa_name] = best_option
+    return best_option_dict
 
 
-def check_accuracy():
-    ...
+def check_good_call(real_taxa, prediced_taxa):
+    match = 0                         # best possible = len(real_taxa)
+    # mismatch = 0                    # best possible = 0
+    mismatch = False                  # best possible = False
+    blanco = 0                        # best possible = 0
+    # alignment_good_call_perc = 0    # best possible = 100%
+    # true_known_depth_comp_perc = 0  # best possible = 100%
+
+    max_depth = len(real_taxa)
+    true_known_depth = max_depth
+    for taxon in list(real_taxa.values())[::-1]:
+        if taxon == '':
+            true_known_depth -= 1
+        else:
+            break
+
+    for taxon in real_taxa:
+        if prediced_taxa[taxon] == real_taxa[taxon]:
+            match += 1
+        elif prediced_taxa[taxon] == '':
+            blanco += 1
+        else:
+            # should be improved return what is correct up untill this point
+            mismatch = True
+            break
+
+    # depth_correct = true_known_depth-blanco / \
+    #     true_known_depth if mismatch == 0 else -1
+
+    depth_correct = true_known_depth - blanco if not mismatch else -match
+
+    # think of a better way to represent mismatches; depth till mismatch?
+    return depth_correct, true_known_depth
+    # alignment_good_call_perc = match / len(real_taxa)
 
 
 if __name__ == "__main__":
@@ -119,13 +154,41 @@ if __name__ == "__main__":
     # print(taxa_id_dict.keys())
     # for k in taxa_id_dict:
     #     print(f"{k}:\t{taxa_id_dict[k]['taxa']['kingdom']}")
-    top_taxa_list = top_overlap(
-        taxa_id_dict, taxa_id_dict["574960"]["sequence"])
-    # 106803
-    top_30_ids = [item for item, _ in top_taxa_list]
-    # show_taxa_from_ids(taxa_id_dict, top_30_ids)
-    print("true taxa:", taxa_id_dict["574960"]["taxa"])
-    most_likely_taxa(taxa_id_dict, top_30_ids[1:])
+    # top_taxa_list = top_overlap(
+    #     taxa_id_dict, taxa_id_dict["574960"]["sequence"])
+    # # 106803
+    # top_30_ids = [item for item, _ in top_taxa_list]
+    # # show_taxa_from_ids(taxa_id_dict, top_30_ids)
+    # # print("true taxa:", taxa_id_dict["574960"]["taxa"])
+    # print("true taxa:", taxa_id_dict["574960"]["taxa"].values())
+    # best_option_dict = most_likely_taxa(taxa_id_dict, top_30_ids[1:])
+
+    # depth_correct, true_known_depth = check_good_call(
+    #     taxa_id_dict["574960"]["taxa"], best_option_dict)
+    # # print("guess taxa:", best_option_dict)
+    # print("guess taxa:", best_option_dict.values())
+    # print(depth_correct, true_known_depth)
+
+    match_dict = {}
+    for id in list(taxa_id_dict.keys())[:100]:
+        top_taxa_list = top_overlap(
+            taxa_id_dict, taxa_id_dict[id]["sequence"])
+        # 106803
+        top_30_ids = [item for item, _ in top_taxa_list]
+        # show_taxa_from_ids(taxa_id_dict, top_30_ids)
+        # print("true taxa:", taxa_id_dict["574960"]["taxa"])
+        print(f"\n---------{id}---------")
+        print("true taxa:", taxa_id_dict[id]["taxa"].values())
+        best_option_dict = most_likely_taxa(taxa_id_dict, top_30_ids[1:])
+
+        depth_correct, true_known_depth = check_good_call(
+            taxa_id_dict[id]["taxa"], best_option_dict)
+        # print("guess taxa:", best_option_dict)
+        print("guess taxa:", best_option_dict.values())
+        print(depth_correct, true_known_depth)
+        match_dict[id] = (depth_correct, true_known_depth)
+    print(match_dict)
+
 
 # way to measure acuracy:
 # check for all sequences, how deep into the hierarchy does it go,
